@@ -46,6 +46,7 @@ const Footer = () => {
                 <li>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</li>
             </ul>
         </div>
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> Buari olatunji</p>
     </div>
     </>
   )
