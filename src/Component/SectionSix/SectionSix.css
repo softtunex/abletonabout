@@ -1,0 +1,46 @@
+.SectionSix{
+    width: 80vw;
+    display: flex;
+    flex-direction:row;
+    height: 80vh;
+    justify-content: center;
+    margin: 6rem auto;
+    margin-bottom: 15rem;
+}
+.SectionSix img{
+    width: 50%;
+}
+.SectionSix h2{
+    background-color: #b1c5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+
+}
+.SectionSix h2 span{
+    color: #0000ff;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1024px) {
+    .SectionSix{
+        flex-direction: column;
+        margin: 2rem auto;
+         margin-bottom: 0rem;
+
+
+    }
+    .SectionSix img{
+        width: 100%;
+    }
+    .SectionSix h2{
+        font-size: 12px;
+        padding: 2rem;
+
+    
+    }
+
+}

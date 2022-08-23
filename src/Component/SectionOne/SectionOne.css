@@ -1,0 +1,70 @@
+
+
+.s1-bgc{
+    /* position: absolute; */
+    background-color: #fbffa7;
+    width: 50vw;
+    aspect-ratio: 1/1.2;
+    margin-left: 50%;
+  }
+.s1_img1{
+    position: absolute; 
+   width: 45%;
+   margin: 8rem 6rem;
+    
+   z-index: 1;
+
+   
+}
+.s1_img1 img{
+    width: 100%;
+}
+
+.s1_img2{
+   width: 35%;
+   position: absolute; 
+   margin: 12rem 0 0 60%;
+   z-index: 1;
+
+
+
+}
+
+ .s1_img2 img{
+    width: 100%;
+ 
+ 
+ 
+ }
+@media screen and (max-width:1023px) {
+    .s1-bgc{   
+        aspect-ratio: 1/1.3;
+      }
+    .s1_img1{
+        
+       margin: 8rem 4rem;
+        
+    }
+    
+    
+    .s1_img2{
+       margin: 10rem 0 0 60%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .s1-bgc{
+        
+        aspect-ratio: 1/1.5;
+      }
+    .s1_img1{
+        
+       margin: 4rem 1.8rem;
+        
+    }
+    
+   
+    .s1_img2{
+       margin: 5rem 0 0 60%;
+    }
+}

@@ -1,0 +1,39 @@
+.SecondNav{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 2.5rem;
+}
+.active{
+    color:#ff764d
+}
+.navImg{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    transform: translateX(-50);
+    background-image: url(https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=454&ixjsv=1.1.3&q=50&w=1333);
+    width: 68vw;
+    height: 90vh;
+    margin: 0rem auto;
+}
+.navImg .Ableton{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translateX(-50);
+
+    color:#FD5948;
+    font-size: 60px;
+}
+@media screen and (max-width:1024px) {
+   .navImg{
+    width: 90vw;
+   }
+   .navImg .Ableton{
+   
+    left: 25%;
+    font-size: 25px;
+}
+}

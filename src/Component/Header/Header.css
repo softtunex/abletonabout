@@ -1,0 +1,110 @@
+.barAlign{
+    display: grid;
+    grid-template-columns: 9% auto;
+    gap: 1rem;
+}
+
+.navBar{
+    justify-content: space-between;
+    background-color: white;
+}
+.menu{
+    display: none;
+    cursor: pointer;
+}
+.firstNav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav span{
+    color: #ff764d;
+}
+.secNav{
+    display: flex;
+    gap: 2rem;
+    list-style: none; 
+    margin: 1em 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+
+}
+.secNav > li> span{
+    color: #0000ff;
+}
+.secNav > .secNavList{
+    font-size: 14px;
+    margin: 0.4rem 0;
+    font-weight:600;
+}
+.main-nav__logo__image{
+    display: block;
+    width: 8.75em;
+    height: 1.75em;
+}
+.svg{
+   padding: 1.5rem 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none; 
+    margin: 1em 0;
+    font-size: 1.25rem;
+}
+.nav > li {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1024px) {
+    .Header{
+      position: absolute;
+      z-index: 9;   
+      width: 100%;
+      height: 60%;
+    }
+    .navBar{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        background-color:  #0000ff;
+        
+
+    }
+    .firstNav{
+        margin-top: 2.5rem;
+    }
+    
+    .firstNav,.secNav,.nav, .navBar{
+        z-index: 9;
+        display: block;
+        padding: 0.1rem;
+        color: #fff;
+    }
+    .secNav > li> span{
+        color: #fff;
+    }
+    .secNav{
+       margin: 0;
+    }
+    .svg{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 0;
+        z-index: 10;
+        transition: all 300ms ease;
+
+    }
+    .menu{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 0;
+        position: absolute;
+        z-index: 10;
+        transition: all 300ms ease;
+        
+    }
+}

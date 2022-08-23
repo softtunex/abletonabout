@@ -1,0 +1,30 @@
+.s2_img{
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+}
+.s2_img .s2_img1{
+    position: relative;
+    width: 100%;
+}
+.s2_img .s2_img2{
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+    .s2_img{
+        width: 90%;
+    }
+    .s2_img .s2_img2{
+        width: 15%;
+
+    }
+}

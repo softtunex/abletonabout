@@ -1,0 +1,43 @@
+.sf_main{
+    position: relative;
+}
+.sf_bgc{
+    z-index: 1;
+    /* position: absolute; */
+    margin: 0 auto;
+    width: 70%;
+    left: 15%;
+    aspect-ratio: 1/1;
+    background-color:#d5b3ff;
+
+}
+.SectionFive{
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-between;
+}
+.s5_img1{
+    z-index: 2;
+    position: absolute;
+    margin: 10% 0 0 2rem;
+    width: 40%;
+    top: 0;
+    left: 0;
+}
+.s5_img1 img{
+    width: 100%;
+}
+.s5_img2{
+    z-index: 2;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    margin: 10% 0;
+
+}
+.s5_img2 img{
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+.footerHeader{
+    margin: 1rem 10% 0 10%;
+    font-size: 50px;
+}
+.Footer{
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    gap: 2rem;
+    margin: 0 10%;
+}
+.Footer h4{
+    margin-top: 3rem;
+}
+.footerSvg{
+    display: flex;
+    width: 10rem;
+    gap: 1rem;
+}
+.footerSvg .facebook{
+    background-color: #3477F2
+}
+.footerSvg .twitter{
+    background-color: #1DA1F2
+}
+.footerSvg .instagram{
+    background-color: #F77737
+}
+.footerSvg .youtube{
+    background-color: #FF001D
+}
+li{
+    list-style: none;
+}
+@media screen and (max-width:1024px) {
+    .footerHeader{
+        font-size: 30px;
+
+    }
+.Footer{
+    grid-template-columns: 1fr;
+    margin: 0 10%;
+
+}
+.Footer h4{
+    margin-top: 1rem;
+}
+    
+}

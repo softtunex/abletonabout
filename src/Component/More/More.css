@@ -1,0 +1,28 @@
+.More{
+    width: 70vw;
+    z-index: 10;
+}
+.moreList{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    list-style: none;
+}
+@media screen and (max-width:1024px) {
+    .More{
+        width: 100%;
+        display: block;
+    }
+    .moreList{
+        display: grid;
+        cursor: pointer;
+
+        
+    }
+    .moreList li{
+        margin: 1rem 0;
+
+        
+        
+    }
+}
